@@ -5,4 +5,7 @@ function sayHello() {
 
 function showName() {
   let greetingElement = document.getElementById("output");
+  let inputElement = document.getElementById("nameInput");
+  console.log(greetingElement, inputElement)
+  greetingElement.innerHTML = inputElement.value
 }
